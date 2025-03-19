@@ -1,7 +1,7 @@
     import { ResizeObserver } from '@juggle/resize-observer';
 
     const ARTICLE_CONTENT_SELECTOR = "div.article-content";
-    const FOOTNOTE_SECTION_SELECTOR = "div.footnotes[role=doc-endnotes]";
+    const FOOTNOTE_SECTION_SELECTOR = "div.footnotes[role=doc-endnotes] > ol";
     // this is a prefix-match on ID.
     const INDIVIDUAL_FOOTNOTE_SELECTOR = "li[id^='fn:']";
     const FLOATING_FOOTNOTE_MIN_WIDTH = 1260;

@@ -557,7 +557,7 @@
 
   // <stdin>
   var ARTICLE_CONTENT_SELECTOR = "div.article-content";
-  var FOOTNOTE_SECTION_SELECTOR = "div.footnotes[role=doc-endnotes]";
+  var FOOTNOTE_SECTION_SELECTOR = "div.footnotes[role=doc-endnotes] > ol";
   var INDIVIDUAL_FOOTNOTE_SELECTOR = "li[id^='fn:']";
   var FLOATING_FOOTNOTE_MIN_WIDTH = 1260;
   function docReady(fn) {
