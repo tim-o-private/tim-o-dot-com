@@ -11,5 +11,34 @@ weight = 9999
 name = "Resume"
 pageRef = "resume.md"
 
+[[main]]
+name = "Who I work with"
+pageRef = "who.md"
+identifier="whoIWorkWith"
+weight = 1 
+
+[[main]]
+name = "Traction Stage"
+parent = "whoIWorkWith"
+pageRef = "traction.md"
+weight = 1
+
+[[main]]
+name = "Growth Stage"
+parent = "whoIWorkWith"
+pageRef = "growth.md"
+weight = 2
+
+[[main]]
+name = "Scale Stage"
+parent = "whoIWorkWith"
+pageRef = "scale.md"
+weight = 2
+
+[[main]]
+name = "About Me"
+pageRef = "about.md"
+weight = 3 
+
 [[footer]]
 none = "none"

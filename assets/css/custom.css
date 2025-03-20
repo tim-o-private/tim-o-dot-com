@@ -6,7 +6,12 @@
   top: 0;
   right: 0;
   width: 400px; /* Adjust to your preferred width */
-  font-size: 0.85em;
+}
+.floating-footnotes p, .floating-footnotes ::marker {
+    font-size:.75em;
+}
+.home-image {
+    height: 75% !important; 
 }
 .site-title {
     margin-top: 5px;
