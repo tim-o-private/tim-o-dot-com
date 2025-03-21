@@ -1,0 +1,30 @@
+<div class="dynamic-text-container" style="min-height: 8rem;">
+  {{ .Inner }}<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#typeit-4bc6d08310a78dacc3c87cf4a46d2241", {
+        speed:  75 ,
+        lifeLike:  true ,
+        startDelay:  0 ,
+        breakLines:  false ,
+        waitUntilVisible:  true ,
+        loop:  false 
+      })
+      .type("I <strong class='i'>bootstrap</strong> support for startups gaining traction")
+      .pause(500)
+      .delete(".i")
+      .type("<strong class='i'>hire</strong> top performing teams and ")
+      .pause(500)
+      .delete(".i")
+      .type("<strong class='i'>find</strong> the right place for AI in your growing organization")
+      .pause(500)
+      .delete(".i")
+      .type("<strong class='i'>build</strong> teams that keep customers, developers, and salespeople happy")
+      .pause(500)
+      .delete(".i")
+      .type("<strong class='i'>create</strong> processes that help companies scale.")
+      .delete(".i")
+      .type("<strong class='i'>put</strong> the fires out before you have to.")
+      .go();
+    });
+    </script>
+</div>
