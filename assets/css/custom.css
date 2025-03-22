@@ -21,6 +21,21 @@
 .site-subtitle {
     margin-top: 0px;
 }
+.button-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.0;
+}
+
+/* On mobile, stack the buttons vertically */
+@media (max-width: 640px) {
+  .button-container {
+    flex-direction: column;
+    gap: .5rem;
+  }
+}
 /*.footnote-ref {
         color: #000001;
 }*/
