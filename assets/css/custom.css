@@ -28,6 +28,10 @@
   text-align: center;
   line-height: 1.0;
 }
+.bg-secondary-600 {
+  --tw-bg-opacity:1;
+  background-color:rgba(var(--color-secondary-600), var(--tw-bg-opacity, 1))
+}
 
 /* On mobile, stack the buttons vertically */
 @media (max-width: 640px) {
