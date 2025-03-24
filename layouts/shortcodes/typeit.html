@@ -1,4 +1,4 @@
-{{- $content := split .Inner "\n" -}}
+{{- $literal := .Get "literal" | default "false" -}}
 {{- $initialString := .Get "initialString" | default "" -}}
 {{- $speed := .Get "speed" | default 100 -}}
 {{- $lifeLike := .Get "lifeLike" | default false -}}
@@ -22,16 +22,37 @@
 
 {{ printf `<%v %v>%s</%v>` $tag $attrs $initialString $tag | safeHTML }}
 
-<script>
+
+{{ if eq $literal "true" }}
+  <script>
     document.addEventListener("DOMContentLoaded", function () {
       new TypeIt("#{{ $id }}", {
-        strings: {{ $content }},
         speed: {{ $speed }},
         lifeLike: {{ $lifeLike }},
         startDelay: {{ $startDelay }},
         breakLines: {{ $breakLines }},
         waitUntilVisible: {{ $waitUntilVisible }},
-        loop: {{ $loop }}
+        loop: {{ $loop }},
+        html: true
+      })
+      {{ .Inner | safeJS }}
+    });
+  </script>
+{{ else }}
+  {{- $content := split .Inner "\n" -}}
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      new TypeIt("#{{ $id }}", {
+        strings: {{ $content | jsonify }},
+        speed: {{ $speed }},
+        lifeLike: {{ $lifeLike }},
+        startDelay: {{ $startDelay }},
+        breakLines: {{ $breakLines }},
+        waitUntilVisible: {{ $waitUntilVisible }},
+        loop: {{ $loop }},
+        html: true
       }).go();
     });
-</script>
+  </script>
+{{ end }}
+

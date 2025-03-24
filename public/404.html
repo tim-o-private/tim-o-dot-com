@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.a65fa85741d3e28f4c42626e1be0dcd2896393cdfce22cb3b3795b6370e47d5f2bf16431b019132bdbc6a9a32d0d22bb12079df0de827333b393bcbf64b65c15.css"
-    integrity="sha512-pl&#43;oV0HT4o9MQmJuG&#43;Dc0oljk8384iyzs3lbY3DkfV8r8WQxsBkTK9vGqaMtDSK7Eged8N6CczOzk7y/ZLZcFQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.322f61b879060cfc7e5c8f4bcf823ebe4a61b14575a64e0a7a93e2a38df156b933f8f7596c82576e7ff2cb96488396ec2f700fa11f547be5864e0ed5ada1e619.css"
+    integrity="sha512-Mi9huHkGDPx&#43;XI9Lz4I&#43;vkphsUV1pk4KepPio43xVrkz&#43;PdZbIJXbn/yy5ZIg5bsL3APoR9Ue&#43;WGTg7VraHmGQ==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -533,6 +533,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   

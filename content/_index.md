@@ -1,29 +1,53 @@
 ---
 date: 2024-07-23
+params:
+      showHeadingAnchors: false
 ---
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <div class="animation"></div>
 
-## <div class="not-prose">{{< dynamicText >}}
-{{< typeit >}}{{< /typeit >}}
-{{< /dynamicText >}}
-</div>
+# {{< typeit class="dynamic-text-container" literal="true" speed=30 >}}
+      .pause(500)
+      .type("How can I help?")
+      .break()
+      .break()
+      .pause(500)
+      .type("I <strong class='i'>bootstrap</strong> support for startups gaining traction")
+      .pause(1500)
+      .delete(".i")
+      .type("<strong class='i'>hire</strong> and train top performing teams")
+      .pause(1500)
+      .delete(".i")
+      .type("<strong class='i'>find</strong> the right place for AI in your growing organization")
+      .pause(1500)
+      .delete(".i")
+      .type("<strong class='i'>build</strong> teams that keep customers, developers, and sales happy")
+      .pause(1500)
+      .delete(".i")
+      .type("<strong class='i'>create</strong> processes that help companies retain customers")
+      .pause(1500)
+      .delete()
+      .break()
+      .break()
+      .type("I help startups become global enterprises.")
+      .go();
+{{< /typeit >}}
 
 <br />
 <div class="button-container">
       {{< button href="about" >}}Learn More{{< /button >}}
-      {{< button href="schedule" color="rose">}}Schedule a Call{{< /button >}}
+      {{< button href="schedule" color="red">}}Schedule a Call{{< /button >}}
 </div>
 <br />
 <div class="columns">
-  <div class="column">
+  <div class="column rounded-md!">
     <h2 class="table-header not-prose"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
       <p>You have a few customers and are approaching product market fit, but no professional support organization. 
       </p>
-      <p>I can help you build a roadmap and decide what you will need in place before your growth accelerates.</p>
+      <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
     <div class="column-button-container">
       {{< button href="foundations" >}}Learn more{{< /button >}}
@@ -46,10 +70,23 @@ date: 2024-07-23
   <div class="column">
     <h2 class="table-header not-prose"><b>Scale</b> for growing enterprises</h2>
     <div class="content">
-      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support organization, identifying opportunities for the team to excel.</p>
+      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
     <div class="column-button-container">
       {{< button href="scale" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>
+<div>
+<div class="split-container">
+  <div class="image-container">
+    {{< figure 
+      src="headshotSmiling.jpg"
+      alt="Headshot of Tim O'Brien smiling"
+      height="100%"
+    >}}
+  </div>
+  <div class="text-container">
+    <h2>Hi, I'm Tim</h2>
+  </div>
+</div>      
