@@ -126,19 +126,22 @@
     padding: 1rem;  
   }
   .split-container {
+    border-radius: 25px;
     flex-direction: row; /* Desktop: side by side */
     background-color: rgba(30, 41, 59, 50%);
     box-shadow: 10px 8px 10px 5px rgba(30, 41, 59, 50%);
     margin-top: 93.5px;
-    padding-top: 93.5px;
     margin-bottom: 93.5px;
+    padding-bottom: 2em;
   }
   .image-container {
-    flex: 0 0 50%; /* Fix width at 70% */
-    align-content: center;
+    display: flex;
+    flex: 0 0 40%; /* Fix width at 50% */
+    justify-content: center;
+    align-items: center;
   }
   .text-container {
-    flex: 0 0 50%; /* Fix width at 30% */
+    flex: 0 0 60%; /* Fix width at 50% */
   }
 }
 
