@@ -1,6 +1,44 @@
 @charset "UTF-8";
 
-/* Customized width*/
+/* Background animation */
+.bg {
+  animation:slide 6s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgba(30, 41, 59) 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:12.5s;
+}
+
+.bg3 {
+  animation-duration:7.5s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+/* */
+
+/* highlight button color */
+.bg-rose-600 {
+  --tw-bg-opacity:1;
+  background-color:oklch(0.586 0.253 17.585);
+}
+
+/* Footnote customizations */
 .floating-footnotes {
   position: absolute;
   top: 0;
@@ -13,6 +51,8 @@
 .home-image {
     height: 75% !important; 
 }
+
+/* Site title & subtitle */
 .site-title {
     margin-top: 5px;
     font-size: 1.5em;
@@ -27,10 +67,50 @@
   justify-content: center;
   text-align: center;
   line-height: 1.0;
+  padding-bottom: 2em;
 }
+
+/* Cards */
+.columns {
+  display: flex;
+  flex-direction: column; /* Stack on mobile */
+  gap: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .columns {
+    flex-direction: row; /* Side by side on desktop */
+  }
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darkgray;
+    background-color: rgba(30, 41, 59, 50%);
+    padding: 1rem;
+  }
+  .column-button-container {
+    margin-top: auto;  /* Push the button container to the bottom */
+    padding: 1rem;  
+  }
+}
+
+.table-header {
+    line-height: 1.5;
+    min-height: calc(1.5em *2);
+}
+
 .bg-secondary-600 {
   --tw-bg-opacity:1;
   background-color:rgba(var(--color-secondary-600), var(--tw-bg-opacity, 1))
+}
+
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  color:whitesmoke;
+  text-decoration:none;
+  font-weight:500;
+  text-decoration-color:rgba(var(--color-primary-300), 1);
 }
 
 /* On mobile, stack the buttons vertically */
