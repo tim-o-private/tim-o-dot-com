@@ -37,8 +37,12 @@ params:
 
 <br />
 <div class="button-container">
-      {{< button href="about" >}}Learn More{{< /button >}}
-      {{< button href="schedule" color="red">}}Schedule a Call{{< /button >}}
+      {{< button href="about" >}}
+        Learn More
+      {{< /button >}}
+      {{< button href="https://zeeg.me/tim-obrien" color="red">}}
+        Schedule a Call
+      {{< /button >}}
 </div>
 <br />
 <div class="columns">

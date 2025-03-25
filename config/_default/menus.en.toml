@@ -2,12 +2,6 @@
 none = "none"
 
 [[main]]
-name = "Blog"
-pageRef = "posts"
-identifier = "F3F7btXwaL"
-weight = 9999
-
-[[main]]
 name = "Resume"
 pageRef = "resume.md"
 
@@ -38,7 +32,18 @@ weight = 2
 [[main]]
 name = "About Me"
 pageRef = "about.md"
+identifier = "aboutMe"
 weight = 3 
+
+[[main]]
+name = "Introduction"
+pageRef = "about.md"
+parent = "aboutMe"
+
+[[main]]
+name = "Resume"
+pageRef = "resume.md"
+parent = "aboutMe"
 
 [[footer]]
 none = "none"
