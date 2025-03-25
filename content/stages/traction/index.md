@@ -45,43 +45,43 @@ params:
       {{< /button >}}
 </div>
 <br />
-<div class="columns" style="max-width: 100%;">
-    <div class="column bg-primary-500 inverse">
-      <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
-      <div class="content">
-        <p>You have a few customers and are approaching product market fit, but no professional support organization. 
-        </p>
-        <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
-      </div>
-      <div class="column-button-container">
-        {{< button href="foundations" >}}Learn more{{< /button >}}
-      </div>
+<div class="columns">
+  <div class="column rounded-md!">
+    <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
+    <div class="content">
+      <p>You have a few customers and are approaching product market fit, but no professional support organization. 
+      </p>
+      <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
-    <div class="column bg-primary-600">
-      <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
-      <div class="content">
-        <p>
-              You're close to or have hit product-market fit and are ready to rapidly expand.
-        </p>
-        <p> 
-              I can help build your enterprise organization or upskill a team already in place to execute.
-        </p>
-      </div>
-      <div class="column-button-container">
-        {{< button href="grow" >}}Learn more{{< /button >}}
-      </div>
+    <div class="column-button-container">
+      {{< button href="foundations" >}}Learn more{{< /button >}}
     </div>
-    <div class="column bg-secondary-600">
-      <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
-      <div class="content">
-        <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
-      </div>
-      <div class="column-button-container">
-        {{< button href="scale" >}}Learn more{{< /button >}}
-      </div>
+  </div>
+  <div class="column">
+    <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
+    <div class="content">
+      <p>
+            You're close to or have hit product-market fit and are ready to rapidly expand.
+      </p>
+      <p> 
+            I can help build your enterprise organization or upskill a team already in place to execute.
+      </p>
+    </div>
+    <div class="column-button-container">
+      {{< button href="grow" >}}Learn more{{< /button >}}
+    </div>
+  </div>
+  <div class="column">
+    <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
+    <div class="content">
+      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
+    </div>
+    <div class="column-button-container">
+      {{< button href="scale" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>
+<div>
 <div class="split-container">
   <div class="image-container">
     {{< figure 

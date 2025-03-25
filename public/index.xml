@@ -10,6 +10,16 @@
     <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/who/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/who/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
@@ -30,6 +40,36 @@
     </item>
     
     <item>
+      <title></title>
+      <link>http://localhost:1313/stages/growth/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/growth/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/stages/scale/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/scale/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/stages/traction/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/traction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Annotated Resume</title>
       <link>http://localhost:1313/resume/</link>
       <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
@@ -37,16 +77,6 @@
       <guid>http://localhost:1313/resume/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/thumbnail.png" />
-    </item>
-    
-    <item>
-      <title>Who I Work With</title>
-      <link>http://localhost:1313/who/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/who/</guid>
-      <description></description>
-      
     </item>
     
     <item>
