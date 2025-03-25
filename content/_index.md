@@ -40,7 +40,7 @@ params:
       {{< button href="about" >}}
         Learn More
       {{< /button >}}
-      {{< button href="https://zeeg.me/tim-obrien" color="red">}}
+      {{< button href="https://zeeg.me/timobrien" color="red">}}
         Schedule a Call
       {{< /button >}}
 </div>

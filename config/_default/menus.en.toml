@@ -14,19 +14,19 @@ weight = 1
 [[main]]
 name = "Traction Stage"
 parent = "whoIWorkWith"
-pageRef = "traction.md"
+pageRef = "who.md#traction"
 weight = 1
 
 [[main]]
 name = "Growth Stage"
 parent = "whoIWorkWith"
-pageRef = "growth.md"
+pageRef = "who.md#growth"
 weight = 2
 
 [[main]]
 name = "Scale Stage"
 parent = "whoIWorkWith"
-pageRef = "scale.md"
+pageRef = "who.md#scale"
 weight = 2
 
 [[main]]

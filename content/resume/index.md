@@ -4,6 +4,8 @@ title: "Annotated Resume"
 description: "Wherein I try to distill several decades down to several paragraphs."
 params:
   breadcrumb_label: "Resume"
+  showTitle: false
+  showPagination: false
 ---
 # Summary
 
@@ -11,7 +13,7 @@ Highly skilled, accomplished leader with a proven track record of building and s
 
 # Experience
 ## **[PAXOS](https://paxos.com/) [^paxos]**
-**Head of Customer Enablement**, 2021-2024
+### Head of Customer Enablement, 2021-2024
 
 Built technical support engineering and documentation programs, collaborating closely with engineering and customer teams to resolve complex technical issues. Developed organizational strategy, ensured delivery against service level agreements. Interviewed and hired all staff. Created new support offerings and documents as demands of business changed [^changes]. Supervised TSEs and Tech Writers.
 * Standardized contracts and service level agreements, ensuring customers could get through contract negotiation quickly and receive consistent support.
@@ -25,7 +27,7 @@ Built technical support engineering and documentation programs, collaborating cl
 [^docs]: Paxos had no documentation program when I started. I hired the sole team member and together we figured out how to deliver docs as code, with implementation support from Engineering.
 
 
-## [COCKROACH LABS](https://www.cockroachlabs.com/)
+### [COCKROACH LABS](https://www.cockroachlabs.com/)
 **Head of Technical Support and Corporate Engineering**[^corpeng], 2018-2021
 
 Built a global team of Technical Support Engineers from scratch to deliver 24x7 support for CockroachDB (deployed on premise) and Cockroach Cloud. Developed support offerings for both open-source community and enterprise partnerships. 
@@ -38,7 +40,7 @@ Built a global team of Technical Support Engineers from scratch to deliver 24x7 
 [^corpeng]: Corp Eng provided IT services to the organization. Other notable achievements include selecting and rolling out ERP sofware (Crowdstrike) onto all endpoints and creating standard issue intake processes, as well as managing day to day requests for the whole company.
 [^crlsla]: I also defined the service levels themselves. Here and at Paxos, I basically wrote all the policies related to Support. For example, the [release support policy](https://www.cockroachlabs.com/docs/releases/release-support-policy) and [CockroachDB support policy](https://www.cockroachlabs.com/terms-and-conditions/cockroachdb-support-policy-old/).
 
-## APPNEXUS [^invest]
+### APPNEXUS [^invest]
 
 [^invest]: AppNexus was acquired by AT&T shortly after my departure, and its name was changed to Xandr. Following another acquisition by Microsoft, it is now [Microsoft Invest](https://about.ads.microsoft.com/en/solutions/technology/microsoft-invest-dsp)
 
@@ -75,7 +77,7 @@ Staffed and developed three separate teams with core focus on resolving client i
 
 ## [St Lawrence Valley Roasters](https://stlvr.coffee) 
 
-**Partner**, 2023-Present. 
+### Partner, 2023-Present. 
 
 Co-operates family business [^stlvr]. Created stlvr.coffee online store. Implements pricing changes and marketing campaigns for wholesale and retail businesses, driving 100% increase in revenue YoY.
 
@@ -83,13 +85,13 @@ Co-operates family business [^stlvr]. Created stlvr.coffee online store. Impleme
 
 ## APPNEXUS 
 
-**Product Specialist**, 2012 
+### Product Specialist, 2012 
 
 Engaged with tier one clients, collected product feedback, and acted as technical consultant for unusual and highly technical integrations. Created AppNexus’ support offering, improving client satisfaction and engagement.
 
 ## MICROSOFT 
 
-**Search Account Manager**, 2007-2009. 
+### Search Account Manager, 2007-2009. 
 
 Achieved +120% of quota in 2009 despite challenging sales environment [^2009]. Won departmental award for growing a highly pro-cyclical client 173% between 2008 and 2009. Facilitated internal reorganization by training senior team members on Excel, adCenter editor, and advanced bid optimization techniques shortly after joining the team. Created custom solutions to complex client problems. Increased traffic by 30%, using only targeting. Mentored two high-achieving team members.
 
@@ -97,13 +99,13 @@ Achieved +120% of quota in 2009 despite challenging sales environment [^2009]. W
 
 ## VOLT MEDIA CONSULTING 
 
-Lead, MSN AdCenter Project, 2006-2007. 
+### Lead, MSN AdCenter Project, 2006-2007. 
 
 Saved Microsoft $80K+ per year in staffing costs by writing business requirements for and managing creation of MS SQL reporting system.
 
 # Education
 
-**UNIVERSITY OF ROCHESTER**, Rochester, NY
+## UNIVERSITY OF ROCHESTER, Rochester, NY
 
 BA, Philosophy. Magna cum laude with highest distinction in research.
 

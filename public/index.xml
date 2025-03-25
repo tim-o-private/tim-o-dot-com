@@ -36,6 +36,16 @@
       
       <guid>http://localhost:1313/resume/</guid>
       <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/resume/thumbnail.png" />
+    </item>
+    
+    <item>
+      <title>Who I Work With</title>
+      <link>http://localhost:1313/who/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/who/</guid>
+      <description></description>
       
     </item>
     

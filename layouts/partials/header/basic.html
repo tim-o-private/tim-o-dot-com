@@ -1,3 +1,6 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     {{ if .Site.Params.Logo }}
@@ -49,7 +52,7 @@
             {{ end }}
 
 
-            {{/* Appearance switch */}}
+            {{/* Appearance switch 
             {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
             <div
                 class="{{ if .Site.Params.footer.showScrollToTop | default true -}} {{- end }} flex items-center">
@@ -63,6 +66,7 @@
                 </button>
             </div>
             {{ end }}
+            */}}
 
         </nav>
         <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
