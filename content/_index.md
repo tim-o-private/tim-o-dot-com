@@ -20,7 +20,7 @@ params:
       .type("<strong class='i'>hire</strong> and train top performing teams")
       .pause(1500)
       .delete(".i")
-      .type("<strong class='i'>find</strong> the right place for AI in your growing organization")
+      .type("<strong class='i'>find</strong> the right place for AI in support")
       .pause(1500)
       .delete(".i")
       .type("<strong class='i'>build</strong> teams that keep customers, developers, and sales happy")
@@ -43,7 +43,7 @@ params:
 <br />
 <div class="columns">
   <div class="column rounded-md!">
-    <h2 class="table-header not-prose"><b>Foundations</b> for Early Stage Startups</h2>
+    <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
       <p>You have a few customers and are approaching product market fit, but no professional support organization. 
       </p>
@@ -54,7 +54,7 @@ params:
     </div>
   </div>
   <div class="column">
-    <h2 class="table-header not-prose"><b>Growth</b> for Mid Stage Startups</h2>
+    <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
     <div class="content">
       <p>
             You're close to or have hit product-market fit and are ready to rapidly expand.
@@ -68,7 +68,7 @@ params:
     </div>
   </div>
   <div class="column">
-    <h2 class="table-header not-prose"><b>Scale</b> for growing enterprises</h2>
+    <h2 class="table-header"><b>Scale</b> for growing enterprises</h2>
     <div class="content">
       <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
@@ -94,6 +94,7 @@ params:
       <p>
             I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
       </p>
+      <br />
       {{< button href="about" >}}Learn more{{< /button >}}
   </div>
 </div>      

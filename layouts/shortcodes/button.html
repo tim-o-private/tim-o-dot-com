@@ -1,6 +1,6 @@
 {{ $color := .Get "color" | default "primary" }}
 <a
-  class="!rounded-md bg-{{ $color }}-600 px-4 py-2 !text-neutral !no-underline hover:!bg-{{ $color }}-500 dark:bg-{{ $color }}-800 dark:hover:!bg-{{ $color }}-700 box-shadow-sm"
+  class="!rounded-md bg-{{ $color }}-600 px-6 py-4 !text-neutral !no-underline hover:!bg-{{ $color }}-500 dark:bg-{{ $color }}-800 dark:hover:!bg-{{ $color }}-700 box-shadow-sm button-padding"
   {{ with .Get "href" }}href="{{ . }}"{{ end }}
   {{ with .Get "target" }}target="{{ . }}"{{ end }}
   {{ with .Get "rel" }}rel="{{ . }}"{{ end }}

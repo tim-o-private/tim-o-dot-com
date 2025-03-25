@@ -33,8 +33,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.1d1e6de2c742c3b193bcb08d4999001cf86de3917621763485fb3264e76946d55161b48194e1c490fe942c532be03d18d6bdb636e07158e0d9253aab7bc9d308.css"
-    integrity="sha512-HR5t4sdCw7GTvLCNSZkAHPht45F2IXY0hfsyZOdpRtVRYbSBlOHEkP6ULFMr4D0Y1r22NuBxWODZJTqre8nTCA==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.80b9f8fb66069885b1b87e3b9a74ab948af05bdff7fc3220df48b04e89ecec4f0157fc1e4d6b74fcc6cd45a65aa3777a03bf5e79be3419022f4e0d34ad864370.css"
+    integrity="sha512-gLn4&#43;2YGmIWxuH47mnSrlIrwW9/3/DIg30iwTons7E8BV/weTWt0/MbNRaZao3d6A79eeb40GQIvTg00rYZDcA==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -165,7 +165,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -216,9 +220,9 @@
     <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
       <div class="flex flex-col space-y-3">
         
-        <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        <a href="/traction/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
           
-          <p class="text-sm font-sm" title="">
+          <p class="text-sm font-sm" title="Traction Stage">
             Traction Stage
           </p>
         </a>
@@ -246,9 +250,9 @@
 
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
-    <p class="text-base font-medium" title="">
+    <p class="text-base font-medium" title="Traction Stage">
         About Me
     </p>
 </a>
@@ -453,9 +457,9 @@
 </li>
 
 <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/traction/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-sm font-small" title="">
+        <p class="text-sm font-small" title="Traction Stage">
             Traction Stage
         </p>
     </a>
@@ -488,9 +492,9 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
-        <p class="text-bg font-bg" title="">
+        <p class="text-bg font-bg" title="Traction Stage">
             About Me
         </p>
     </a>
@@ -569,6 +573,16 @@
 </script>
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -610,7 +624,7 @@
       .type("<strong class='i'>hire</strong> and train top performing teams")
       .pause(1500)
       .delete(".i")
-      .type("<strong class='i'>find</strong> the right place for AI in your growing organization")
+      .type("<strong class='i'>find</strong> the right place for AI in support")
       .pause(1500)
       .delete(".i")
       .type("<strong class='i'>build</strong> teams that keep customers, developers, and sales happy")
@@ -629,14 +643,14 @@
 
 
  
-    <div id="hahahugoshortcode49s0hbhb" class="anchor"></div>
+    <div id="hahahugoshortcode95s0hbhb" class="anchor"></div>
     
 </h1>
 <br />
 <div class="button-container">
       
 <a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm"
+  class="!rounded-md bg-primary-600 px-6 py-4 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm button-padding"
   href="about"
   
   
@@ -646,7 +660,7 @@
 </a>
       
 <a
-  class="!rounded-md bg-red-600 px-4 py-2 !text-neutral !no-underline hover:!bg-red-500 dark:bg-red-800 dark:hover:!bg-red-700 box-shadow-sm"
+  class="!rounded-md bg-red-600 px-6 py-4 !text-neutral !no-underline hover:!bg-red-500 dark:bg-red-800 dark:hover:!bg-red-700 box-shadow-sm button-padding"
   href="schedule"
   
   
@@ -658,7 +672,7 @@
 <br />
 <div class="columns">
   <div class="column rounded-md!">
-    <h2 class="table-header not-prose"><b>Foundations</b> for Early Stage Startups</h2>
+    <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
       <p>You have a few customers and are approaching product market fit, but no professional support organization. 
       </p>
@@ -667,7 +681,7 @@
     <div class="column-button-container">
       
 <a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm"
+  class="!rounded-md bg-primary-600 px-6 py-4 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm button-padding"
   href="foundations"
   
   
@@ -678,7 +692,7 @@
     </div>
   </div>
   <div class="column">
-    <h2 class="table-header not-prose"><b>Growth</b> for Mid Stage Startups</h2>
+    <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
     <div class="content">
       <p>
             You're close to or have hit product-market fit and are ready to rapidly expand.
@@ -690,7 +704,7 @@
     <div class="column-button-container">
       
 <a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm"
+  class="!rounded-md bg-primary-600 px-6 py-4 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm button-padding"
   href="grow"
   
   
@@ -701,14 +715,14 @@
     </div>
   </div>
   <div class="column">
-    <h2 class="table-header not-prose"><b>Scale</b> for growing enterprises</h2>
+    <h2 class="table-header"><b>Scale</b> for growing enterprises</h2>
     <div class="content">
       <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
     <div class="column-button-container">
       
 <a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm"
+  class="!rounded-md bg-primary-600 px-6 py-4 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm button-padding"
   href="scale"
   
   
@@ -750,9 +764,10 @@
       <p>
             I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
       </p>
+      <br />
       
 <a
-  class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm"
+  class="!rounded-md bg-primary-600 px-6 py-4 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700 box-shadow-sm button-padding"
   href="about"
   
   
@@ -772,13 +787,7 @@
 
   
 
-      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
-  <a href="#the-top"
-    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
-    aria-label="Scroll to top" title="Scroll to top">
-    &uarr;
-  </a>
-</div>
+      
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   

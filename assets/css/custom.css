@@ -49,13 +49,13 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 400px; /* Adjust to your preferred width */
+  width: 35%; /* Adjust to your preferred width */
 }
 .floating-footnotes p, .floating-footnotes ::marker {
     font-size:.75em;
 }
-.home-image {
-    height: 75% !important; 
+.max-w-prose {
+  max-width:60%
 }
 
 /* Site title & subtitle */
@@ -104,6 +104,7 @@
   flex-direction: column; /* Stack on mobile */
   gap: 2rem;
   text-align: center;
+  color: white;
 }
 .column {
     background-color: rgba(30, 41, 59, 50%);
@@ -172,7 +173,7 @@
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #151515;
-        color: #ddd;
+        color: #fff;
     }
     ol li::marker {
         color: rgba(var(--tw-prose-invert-body));
@@ -219,10 +220,12 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Goudy+Bookletter+1911&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* Tufte CSS styles */
 html {
     font-size: 14px;
-    font-family: et-book;
+    font-family: "Inter", sans-serif;
 }
 
 body {
@@ -230,9 +233,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 12.5%;
-    font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    /*font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
     background-color: #fffff8;
-    color: #111;
+    color: #000;
     max-width: 1400px;
     counter-reset: sidenote-counter;
 }
