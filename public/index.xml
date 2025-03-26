@@ -11,6 +11,36 @@
     
     <item>
       <title></title>
+      <link>http://localhost:1313/stages/growth/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/growth/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/stages/scale/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/scale/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/stages/traction/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/stages/traction/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/who/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
       
@@ -36,36 +66,6 @@
       
       <guid>http://localhost:1313/traction/</guid>
       <description>How I can help companies finding product market fit.</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/stages/growth/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/stages/growth/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/stages/scale/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/stages/scale/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/stages/traction/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/stages/traction/</guid>
-      <description></description>
       
     </item>
     

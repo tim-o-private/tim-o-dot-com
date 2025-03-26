@@ -1,15 +1,20 @@
 {
-  "name": "hugo-blowfish",
+  "name": "my-website",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "description": "",
+  "scripts": {
+    "server": "hugo server -b http://localhost -p 8000",
+    "dev": "NODE_ENV=development npx tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": "NODE_ENV=production npx tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./themes/blowfish/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+  },
   "dependencies": {
-    "@juggle/resize-observer": "^3.4.0"
+    "@juggle/resize-observer": "^3.4.0",
+    "@tailwindcss/cli": "^4.0.17"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.0.17"
   }
 }

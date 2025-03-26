@@ -1,1 +1,18 @@
 .hugo_build.lock
+
+# Hugo default output directory
+/public/
+/resources/
+
+# Node modules
+/node_modules/
+
+# macOS
+.DS_Store
+
+# Compiled CSS
+*.css.map
+
+# IDE
+.vscode/
+.idea/

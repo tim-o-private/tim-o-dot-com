@@ -1,104 +1,37 @@
 ---
-date: 2024-07-23
+date: 2025-03-25
 params:
-      showHeadingAnchors: false
+  showHeadingAnchors: false
+  showTitle: false
+  showPagination: false
+  fullWidth: true
 ---
-<div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
-<div class="animation"></div>
 
-# {{< typeit class="dynamic-text-container" literal="true" speed=30 >}}
-      .pause(500)
-      .type("How can I help?")
-      .break()
-      .break()
-      .pause(500)
-      .type("I <strong class='i'>bootstrap</strong> support for startups gaining traction")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>hire</strong> and train top performing teams")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>find</strong> the right place for AI in support")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>build</strong> teams that keep customers, developers, and sales happy")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>create</strong> processes that help companies retain customers")
-      .pause(1500)
-      .delete()
-      .break()
-      .break()
-      .type("I help startups become global enterprises.")
-      .go();
-{{< /typeit >}}
-
-<br />
-<div class="button-container">
-      {{< button href="about" >}}
-        Learn More
-      {{< /button >}}
-      {{< button href="https://zeeg.me/timobrien" color="red">}}
-        Schedule a Call
-      {{< /button >}}
-</div>
-<br />
-<div class="columns">
-  <div class="column rounded-md!">
-    <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
-    <div class="content">
-      <p>You have a few customers and are approaching product market fit, but no professional support organization. 
-      </p>
-      <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
+<div class="text-center mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl bg-secondary-600 w-full">
+  <h2>Traction Stage</h2>
+  <h4 class="font-normal">
+    You're an early-stage startup beginning to sign big businesses, and they're coming in with big asks.
+  </h4>
+  <h4 class="font-normal">
+    I'll help you assess your organization's current capabilities and design a plan that will help you keep your customers happy, and grow and scale without burning out your engineers and PMs.
+  </h4>
+  <br />
+  <h4>Does this sound familiar?</h4>
+  <div class="flex flex-col sm:flex-row gap-8 text-left text-normal">
+    <div class="shadow-[10px_8px_10px_5px_rgba(30,41,59,0.5)] p-4 rounded-[25px] flex flex-col sm:w-1/2">
+      <ul class="list-disc pl-4 space-y-2"> 
+        <li>You've got customers making big asks in contracts, and you're not sure if you can meet their needs.</li>
+        <li>You've been providing support but have no formal policies, and it's becoming an operational headache.</li>
+        <li>Engineering throughput has been slowing down as the cost of providing support has increased.</li>
+      </ul>
     </div>
-    <div class="column-button-container">
-      {{< button href="foundations" >}}Learn more{{< /button >}}
-    </div>
-  </div>
-  <div class="column">
-    <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
-    <div class="content">
-      <p>
-            You're close to or have hit product-market fit and are ready to rapidly expand.
-      </p>
-      <p> 
-            I can help build your enterprise organization or upskill a team already in place to execute.
-      </p>
-    </div>
-    <div class="column-button-container">
-      {{< button href="grow" >}}Learn more{{< /button >}}
-    </div>
-  </div>
-  <div class="column">
-    <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
-    <div class="content">
-      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
-    </div>
-    <div class="column-button-container">
-      {{< button href="scale" >}}Learn more{{< /button >}}
+    <div class="shadow-[10px_8px_10px_5px_rgba(30,41,59,0.5)] p-4 rounded-[25px] flex flex-col sm:w-1/2">
+      <ul class="list-disc pl-4 space-y-2"> 
+        <li>Your engineering team has been on call for months or years and is starting to burn out.</li>
+        <li>Customer requests have been growing as fast or faster than revenue.</li>
+        <li>Your product teams want customer feedback but aren't getting the right level of detail from tickets.</li>
+        <li>You're not sure how much support is costing you at all.</li>
+      </ul>
     </div>
   </div>
 </div>
-<div>
-<div class="split-container">
-  <div class="image-container">
-    {{< figure 
-      src="headshotSmiling.jpg"
-      alt="Headshot of Tim O'Brien smiling"
-      height="100%"
-    >}}
-  </div>
-  <div class="text-container">
-    <h2>Hi! I'm Tim 👋</h2>
-      <p>
-            I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
-      </p>
-      <p>
-            I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
-      </p>
-      <br />
-      {{< button href="about" >}}Learn more{{< /button >}}
-  </div>
-</div>      

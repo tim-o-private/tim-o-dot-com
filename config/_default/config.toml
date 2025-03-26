@@ -1,1 +1,9 @@
 googleAnalytics = "G-WJWGLZSK8N"
+[build]
+  writeStats = true
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[params]
+  mainSections = ["posts"]
