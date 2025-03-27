@@ -36,13 +36,17 @@ params:
 {{< /typeit >}}
 
 <br />
-<div class="button-container">
-      {{< button href="about" >}}
-        Learn More
-      {{< /button >}}
-      {{< button href="https://zeeg.me/timobrien" color="red">}}
-        Schedule a Call
-      {{< /button >}}
+<div class="flex justify-center text-center gap-8 pb-8 leading-none">
+      <div>
+        {{< button href="about" >}}
+          Learn More
+        {{< /button >}}
+      </div>
+      <div>
+        {{< button href="https://zeeg.me/timobrien" color="red">}}
+          Schedule a Call
+        {{< /button >}}
+      </div>
 </div>
 <br />
 <div class="columns" style="max-width: 100%;">
@@ -92,9 +96,9 @@ params:
   </div>
   <div class="text-container">
     <h2>Hi! I'm Tim 👋</h2>
-      <p>
+    <p>
             I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
-      </p>
+    </p>
       <p>
             I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
       </p>
