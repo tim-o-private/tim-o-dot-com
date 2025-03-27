@@ -1,14 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Goudy+Bookletter+1911&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Menu */
-.main-menu {
-    margin-top: .5em;
-    margin-bottom: .5em;
-}
-.min-h-4-rem {
-    min-height:4rem;
-}
+/* Menu styles adjusted in `partials/header/fixed.html` */
+
 /* Background animation */
 .bg {
   animation:slide 6s ease-in-out infinite alternate;
@@ -76,6 +70,7 @@
 .site-subtitle {
     margin-top: 0px;
 }
+
 .button-container {
   display: flex;
   gap: 2rem;
