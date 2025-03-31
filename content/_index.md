@@ -100,12 +100,12 @@ params:
   <div class="text-container">
     <h2>Hi! I'm Tim 👋</h2>
     <p>
-            I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
+      I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
     </p>
-      <p>
-            I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
-      </p>
-      <br />
-      {{< button href="about" >}}Learn more{{< /button >}}
+    <p>
+      I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
+    </p>
+    <br />
+    {{< button href="about" >}}Learn more{{< /button >}}
   </div>
 </div>      

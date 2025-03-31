@@ -28,8 +28,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.2f606c87904e3a68cb4d9a63eeb31fba77ee4652329a33711e6174b5819748791e36d0eb5c02c26bcd30435e5f3e2d8e7a5d24b8eadedcd5027865b96458cf03.css"
-    integrity="sha512-L2Bsh5BOOmjLTZpj7rMfunfuRlIymjNxHmF0tYGXSHkeNtDrXALCa80wQ15fPi2Oel0kuOre3NUCeGW5ZFjPAw==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.13747a372dea5fe04e25954cdf11e485bda723cd1ed0f318e27f1326c911eac2da021383cced4f6507bc9d0acae39e4e7aa8b40c0b032d52c08f3a512b0b1f83.css"
+    integrity="sha512-E3R6Ny3qX&#43;BOJZVM3xHkhb2nI80e0PMY4n8TJskR6sLaAhODzO1PZQe8nQrK455Oeqi0DAsDLVLAjzpRKwsfgw==" />
   
   
   <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
@@ -170,7 +170,7 @@
   </div>
   
   
-  <div class="min-h-4-rem"></div>
+  <div class="min-h-[4rem]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
   <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
@@ -178,17 +178,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
-    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    class="my-2 flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex flex-col">
             
-            <a href="/" class="site-title text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="/" class="font-bold m5-1 text-2xl text-gray-500 hover:text-gray-900">
                 Tim O&rsquo;Brien
             </a>
             
             
-            <span class="site-subtitle text-sm font-light text-gray-400">Startup Support Advisor</span>
+            <span class="mt-0 text-sm font-light text-gray-400">Startup Support Advisor</span>
             
         </nav>
         <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
@@ -578,7 +578,7 @@
 
 <script>
     (function () {
-        var $mainmenu = $('.main-menu');
+        var $mainmenu = $('my-2');
         var path = window.location.pathname;
         $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
             $(e).children('p').addClass('active');
