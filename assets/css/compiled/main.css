@@ -1722,13 +1722,11 @@ select{
 .split-container{
   margin-top:2rem;
   margin-bottom:2rem;
-  margin-right:2rem;
   display:flex;
   flex-direction:column;
   align-items:center;
   border-radius:25px;
   background-color:rgba(30,41,59,0.75);
-  padding:2em;
   --tw-shadow:10px 8px 10px 5px rgba(30,41,59,0.5);
   --tw-shadow-colored:10px 8px 10px 5px var(--tw-shadow-color);
   box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
@@ -1736,8 +1734,10 @@ select{
 
 @media (min-width: 853px){
   .split-container{
+    margin-right:2rem;
     flex-direction:row;
-    gap:2rem
+    gap:2rem;
+    padding:2em
   }
 }
 
@@ -1760,6 +1760,22 @@ select{
 @media (min-width: 853px){
   .text-container{
     flex:0 0 60%
+  }
+}
+
+.dynamic-text-container{
+  margin:1rem;
+  display:inline-block;
+  width:100%;
+  height:100%;
+  text-align:center;
+  font-size:1.5rem;
+  line-height:2rem
+}
+
+@media (min-width: 853px){
+  .dynamic-text-container{
+    min-height:12rem
   }
 }
 
@@ -2628,6 +2644,10 @@ select{
 
 .\!whitespace-nowrap{
   white-space:nowrap !important
+}
+
+.whitespace-nowrap{
+  white-space:nowrap
 }
 
 .break-normal{
@@ -5702,6 +5722,16 @@ pre {
   .md\:px-24{
     padding-left:6rem;
     padding-right:6rem
+  }
+
+  .md\:px-6{
+    padding-left:1.5rem;
+    padding-right:1.5rem
+  }
+
+  .md\:py-4{
+    padding-top:1rem;
+    padding-bottom:1rem
   }
 
   .md\:text-5xl{

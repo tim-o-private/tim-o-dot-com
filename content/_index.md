@@ -8,9 +8,9 @@ params:
 <div class="bg bg3"></div>
 <div class="animation"></div>
 
-# {{< typeit class="dynamic-text-container" literal="true" speed=30 >}}
+{{< typeit class="dynamic-text-container" literal="true" speed=30 >}}
       .pause(500)
-      .type("How can I help?")
+      .type("<strong>How can I help?</strong>")
       .break()
       .break()
       .pause(500)
@@ -31,7 +31,7 @@ params:
       .delete()
       .break()
       .break()
-      .type("I help startups become global enterprises.")
+      .type("I help <strong>startups</strong> become <strong>global enterprises.</strong>")
       .go();
 {{< /typeit >}}
 

@@ -16,7 +16,7 @@
     .split-container {
       @apply flex flex-col md:flex-row items-center md:gap-8
    rounded-[25px] bg-[rgba(30,41,59,0.75)] shadow-[10px_8px_10px_5px_rgba(30,41,59,0.5)]
-  mt-8 mb-8 mr-8 p-[2em];
+  mt-8 mb-8 md:mr-8 md:p-[2em];
     }
     .image-container {
         @apply flex justify-center items-center md:flex-[0_0_40%];
@@ -24,6 +24,9 @@
     .text-container {
         @apply md:flex-[0_0_60%] p-4;
     }
+    .dynamic-text-container {
+      @apply m-4 md:min-h-[12rem] text-2xl inline-block size-full text-center;
+    }  
   }
 
 /* Background animation */
