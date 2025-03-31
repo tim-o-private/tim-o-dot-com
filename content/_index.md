@@ -94,7 +94,6 @@ params:
     {{< figure 
       src="headshotSmiling.jpg"
       alt="Headshot of Tim O'Brien smiling"
-      height="100%"
     >}}
   </div>
   <div class="text-container">
