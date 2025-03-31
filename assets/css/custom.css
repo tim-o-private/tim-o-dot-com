@@ -5,10 +5,10 @@
 /* @layer compontents is for reusable  */
 @layer components {
     .columns {
-      @apply flex flex-col md:flex-row gap-8 text-center;
+      @apply flex flex-col md:flex-row gap-2 md:gap-8 text-center;
     }
     .column {
-      @apply p-4 rounded-3xl shadow-xl md:flex-1 md:flex md:flex-col;
+      @apply p-2 md:p-4 rounded-3xl shadow-xl md:flex-1 md:flex md:flex-col;
     }
     .column-button-container {
       @apply md:mt-auto p-4 whitespace-nowrap;
@@ -22,7 +22,7 @@
         @apply flex justify-center items-center md:flex-[0_0_40%];
     }
     .text-container {
-        @apply md:flex-[0_0_60%] p-4;
+        @apply text-center md:text-left md:flex-[0_0_60%] p-4;
     }
     .dynamic-text-container {
       @apply m-4 md:min-h-[12rem] text-2xl inline-block size-full text-center;

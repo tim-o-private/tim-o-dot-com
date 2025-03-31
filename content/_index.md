@@ -52,7 +52,7 @@ params:
 
 <br />
 
-<div class="columns" style="max-width: 100%;">
+<div class="columns">
   <div class="column bg-primary-500 inverse">
     <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
