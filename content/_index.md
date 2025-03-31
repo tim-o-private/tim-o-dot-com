@@ -53,7 +53,7 @@ params:
 <br />
 
 <div class="columns">
-  <div class="column bg-primary-500 inverse">
+  <div class="column bg-primary-500">
     <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
         <p>You have a few customers and are approaching product market fit, but no professional support organization. 
