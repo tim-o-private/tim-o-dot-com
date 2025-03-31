@@ -44,7 +44,7 @@ params:
     {{< /button >}}
   </div>
   <div>
-    {{< button href="https://zeeg.me/timobrien" color="red">}}
+    {{< button href="https://zeeg.me/timobrien" color="red-600" >}}
       Schedule a Call
     {{< /button >}}
   </div>
@@ -53,7 +53,7 @@ params:
 <br />
 
 <div class="columns">
-  <div class="column bg-primary-500">
+  <div class="column bg-primary-800">
     <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
         <p>You have a few customers and are approaching product market fit, but no professional support organization. 
@@ -61,7 +61,7 @@ params:
         <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="foundations" >}}Learn more{{< /button >}}
+      {{< button href="stages/traction" >}}Learn more{{< /button >}}
     </div>
   </div>
   <div class="column bg-primary-600">
@@ -75,16 +75,16 @@ params:
       </p>
     </div>
     <div class="column-button-container">
-      {{< button href="grow" >}}Learn more{{< /button >}}
+      {{< button href="stages/growth" >}}Learn more{{< /button >}}
     </div>
   </div>
-  <div class="column bg-secondary-600">
+  <div class="column bg-primary-500">
     <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
     <div class="content">
       <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="scale" >}}Learn more{{< /button >}}
+      {{< button href="stages/scale" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>
@@ -105,6 +105,6 @@ params:
       I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
     </p>
     <br />
-    {{< button href="about" >}}Learn more{{< /button >}}
+    {{< button href="about" >}}About{{< /button >}}
   </div>
 </div>      

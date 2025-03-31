@@ -20,7 +20,7 @@ Who I Work With
 </h2>
 <br />
 <div class="columns" style="max-width: 100%;">
-    <div class="column bg-secondary-600 inverse">
+    <div class="column bg-secondary-600">
       <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
       <div class="content">
         <p>You have a few customers and are approaching product market fit, but no professional support organization. 
@@ -28,7 +28,7 @@ Who I Work With
         <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
       </div>
       <div class="column-button-container">
-        {{< button href="foundations" >}}Learn more{{< /button >}}
+        {{< button href="stages/traction" >}}Learn more{{< /button >}}
       </div>
     </div>
     <div class="column bg-primary-600">
@@ -42,7 +42,7 @@ Who I Work With
         </p>
       </div>
       <div class="column-button-container">
-        {{< button href="grow" >}}Learn more{{< /button >}}
+        {{< button href="stages/growth" >}}Learn more{{< /button >}}
       </div>
     </div>
     <div class="column bg-primary-500">
@@ -51,7 +51,7 @@ Who I Work With
         <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
       </div>
       <div class="column-button-container">
-        {{< button href="scale" >}}Learn more{{< /button >}}
+        {{< button href="stages/scale" >}}Learn more{{< /button >}}
       </div>
     </div>
   </div>

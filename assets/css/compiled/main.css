@@ -18,6 +18,30 @@ body.zen-mode-enable {
   }
 }
 
+@theme {
+  --color-red-50: oklch(0.971 0.013 17.38);
+
+  --color-red-100: oklch(0.936 0.032 17.717);
+
+  --color-red-200: oklch(0.885 0.062 18.334);
+
+  --color-red-300: oklch(0.808 0.114 19.571);
+
+  --color-red-400: oklch(0.704 0.191 22.216);
+
+  --color-red-500: oklch(0.637 0.237 25.331);
+
+  --color-red-600: oklch(0.577 0.245 27.325);
+
+  --color-red-700: oklch(0.505 0.213 27.518);
+
+  --color-red-800: oklch(0.444 0.177 26.899);
+
+  --color-red-900: oklch(0.396 0.141 25.723);
+
+  --color-red-950: oklch(0.258 0.092 26.042);
+}
+
 /* Menu styles adjusted in `partials/header/fixed.html` */
 
 /* @layer compontents is for reusable  */
@@ -1927,6 +1951,10 @@ select{
   margin:0.5rem
 }
 
+.m-8{
+  margin:2rem
+}
+
 .m-auto{
   margin:auto
 }
@@ -2356,6 +2384,10 @@ select{
   max-width:48rem
 }
 
+.max-w-4xl{
+  max-width:56rem
+}
+
 .max-w-7xl{
   max-width:80rem
 }
@@ -2503,6 +2535,10 @@ select{
 
 .resize{
   resize:both
+}
+
+.list-disc{
+  list-style-type:disc
 }
 
 .list-none{
@@ -2664,6 +2700,10 @@ select{
 
 .rounded-2xl{
   border-radius:1rem
+}
+
+.rounded-\[25px\]{
+  border-radius:25px
 }
 
 .rounded-\[50\%\]{
@@ -2847,6 +2887,16 @@ select{
 .bg-primary-600{
   --tw-bg-opacity:1;
   background-color:rgba(var(--color-primary-600), var(--tw-bg-opacity, 1))
+}
+
+.bg-primary-800{
+  --tw-bg-opacity:1;
+  background-color:rgba(var(--color-primary-800), var(--tw-bg-opacity, 1))
+}
+
+.bg-primary-900{
+  --tw-bg-opacity:1;
+  background-color:rgba(var(--color-primary-900), var(--tw-bg-opacity, 1))
 }
 
 .bg-secondary-600{
@@ -3071,6 +3121,10 @@ select{
 
 .pl-2{
   padding-left:0.5rem
+}
+
+.pl-4{
+  padding-left:1rem
 }
 
 .pl-\[24px\]{
@@ -3433,6 +3487,14 @@ select{
   --tw-backdrop-blur:blur(4px);
   -webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)
+}
+
+.transition{
+  transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration:150ms
 }
 
 .transition-\[height\]{
@@ -5708,6 +5770,10 @@ pre {
 
   .md\:justify-start{
     justify-content:flex-start
+  }
+
+  .md\:p-8{
+    padding:2rem
   }
 
   .md\:p-\[10vh\]{

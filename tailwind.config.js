@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./layouts/**/*.html",
@@ -56,10 +58,11 @@ module.exports = {
       },
     },
     extend: {
+      colors: colors.red,
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
-            "--tw-prose-body": theme("colors.neutral.59 / 1"),
+            "--tw-prose-body": theme("colors.neutral.50 / 1"),
             "--tw-prose-headings": theme("colors.neutral.800 / 1"),
             "--tw-prose-lead": theme("colors.neutral.500 / 1"),
             "--tw-prose-links": theme("colors.primary.600 / 1"),

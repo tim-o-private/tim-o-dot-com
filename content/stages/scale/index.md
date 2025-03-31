@@ -1,104 +1,29 @@
 ---
-date: 2024-07-23
+date: 2025-03-25
+title: Scale Efficiently
 params:
-      showHeadingAnchors: false
+  showHeadingAnchors: false
+  showTitle: false
+  showPagination: false
+  fullWidth: true
 ---
-<div class="bg"></div>
-<div class="bg bg2"></div>
-<div class="bg bg3"></div>
-<div class="animation"></div>
 
-# {{< typeit class="dynamic-text-container" literal="true" speed=30 >}}
-      .pause(500)
-      .type("How can I help?")
-      .break()
-      .break()
-      .pause(500)
-      .type("I <strong class='i'>bootstrap</strong> support for startups gaining traction")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>hire</strong> and train top performing teams")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>find</strong> the right place for AI in support")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>build</strong> teams that keep customers, developers, and sales happy")
-      .pause(1500)
-      .delete(".i")
-      .type("<strong class='i'>create</strong> processes that help companies retain customers")
-      .pause(1500)
-      .delete()
-      .break()
-      .break()
-      .type("I help startups become global enterprises.")
-      .go();
-{{< /typeit >}}
-
-<br />
-<div class="button-container">
-      {{< button href="about" >}}
-        Learn More
-      {{< /button >}}
-      {{< button href="https://zeeg.me/timobrien" color="red">}}
-        Schedule a Call
-      {{< /button >}}
-</div>
-<br />
-<div class="columns">
-  <div class="column rounded-md!">
-    <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
-    <div class="content">
-      <p>You have a few customers and are approaching product market fit, but no professional support organization. 
-      </p>
-      <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
-    </div>
+<div class="p2 md:p-8 text-center mb-4 leading-none tracking-tight bg-primary-900 w-full rounded-[25px]">
+  <div class="max-w-4xl">
+    <div class="pt-4 text-4xl">🚀</div>
+    <h2 class="font-extrabold">Scale Stage</h2>
+    <p class="font-bold">
+      You've built a strong foundation. Your revenues are growing predictably, and your services and support teams are solid.
+    </p>
+    <p class="font-normal">
+      With product-market fit established and scalable operations achieved, you're now dealing with new challenges. Perhaps you're finding that customers have become dissatisfied with services or support over time, or you've found you've lost something in the transition from a startup to scaled organization.
+    </p>
+    <p class="font-normal">
+      At this stage, you're focused on refinement and maintenance, and want an unbiased perspective of your team's dynamics, capabilities, and culture.
+    </p>
+    <h3>Let's talk. I'll explore your unique challenges and determine how I can help. If I can't, I'll help find someone who can.</h3>
     <div class="column-button-container">
-      {{< button href="foundations" >}}Learn more{{< /button >}}
-    </div>
-  </div>
-  <div class="column">
-    <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
-    <div class="content">
-      <p>
-            You're close to or have hit product-market fit and are ready to rapidly expand.
-      </p>
-      <p> 
-            I can help build your enterprise organization or upskill a team already in place to execute.
-      </p>
-    </div>
-    <div class="column-button-container">
-      {{< button href="grow" >}}Learn more{{< /button >}}
-    </div>
-  </div>
-  <div class="column">
-    <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
-    <div class="content">
-      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
-    </div>
-    <div class="column-button-container">
-      {{< button href="scale" >}}Learn more{{< /button >}}
+        {{< button href="https://zeeg.me/timobrien" color="red" >}}Get in touch{{< /button >}}
     </div>
   </div>
 </div>
-<div>
-<div class="split-container">
-  <div class="image-container">
-    {{< figure 
-      src="headshotSmiling.jpg"
-      alt="Headshot of Tim O'Brien smiling"
-      height="100%"
-    >}}
-  </div>
-  <div class="text-container">
-    <h2>Hi! I'm Tim 👋</h2>
-      <p>
-            I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
-      </p>
-      <p>
-            I can help achieve clarity on your support strategy, align your sales, support and engineering organizations, and bootstrap functions that will help you retain customers and operate at peak efficiency while managing the complexities of hypergrowth.
-      </p>
-      <br />
-      {{< button href="about" >}}Learn more{{< /button >}}
-  </div>
-</div>      
