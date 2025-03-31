@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "server": "hugo server -b http://localhost -p 8000",
-    "dev": "NODE_ENV=development npx tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "build": "NODE_ENV=production npx tailwindcss -c ./themes/blowfish/tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+    "dev": "NODE_ENV=development npx tailwindcss -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "build": "NODE_ENV=production npx tailwindcss -c ./tailwind.config.js -i ./assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "dependencies": {
     "@juggle/resize-observer": "^3.4.0",
