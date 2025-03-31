@@ -2,7 +2,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
-    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3">
+    class="my-2 flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start gap-x-3 my-2">
     {{ if .Site.Params.Logo }}
     {{ $logo := resources.Get .Site.Params.Logo }}
     {{ if $logo }}
@@ -26,12 +26,12 @@
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex flex-col">
             {{ if not .Site.Params.disableTextInHeader | default true }}
-            <a href="{{ "" | relLangURL }}" class="site-title text-base font-medium text-gray-500 hover:text-gray-900">
+            <a href="{{ "" | relLangURL }}" class="font-bold m5-1 text-2xl text-gray-500 hover:text-gray-900">
                 {{ .Site.Title | markdownify }}
             </a>
             {{ end }}
             {{ with .Site.Params.header.subtitle }}
-            <span class="site-subtitle text-sm font-light text-gray-400">{{ . | markdownify }}</span>
+            <span class="mt-0 text-sm font-light text-gray-400">{{ . | markdownify }}</span>
             {{ end }}
         </nav>
         <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
@@ -155,7 +155,7 @@
 </div>
 
 {{ if .Site.Menus.subnavigation }}
-<div class="main-menu flex pb-3 flex-col items-end justify-between md:justify-start space-x-3" {{ if .Site.Params.Logo
+<div class="my-2 flex pb-3 flex-col items-end justify-between md:justify-start space-x-3" {{ if .Site.Params.Logo
     }} style="margin-top:-15px" {{ end }}>
     <div class="hidden md:flex items-center space-x-5">
         {{ range .Site.Menus.subnavigation }}
@@ -178,7 +178,7 @@
 {{ if .Site.Params.highlightCurrentMenuArea }}
 <script>
     (function () {
-        var $mainmenu = $('.main-menu');
+        var $mainmenu = $('my-2');
         var path = window.location.pathname;
         $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
             $(e).children('p').addClass('active');
