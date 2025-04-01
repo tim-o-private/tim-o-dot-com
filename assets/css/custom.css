@@ -17,6 +17,9 @@
 /* Menu styles adjusted in `partials/header/fixed.html` */
 /* @layer compontents is for reusable  */
 @layer components {
+    .table-header {
+      @apply my-[1em];
+    }
     .columns {
       @apply flex flex-col md:flex-row gap-2 md:gap-8 text-center w-full;
     }

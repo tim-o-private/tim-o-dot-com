@@ -8,28 +8,30 @@ params:
   fullWidth: true
 ---
 
-<div class="text-center mb-4 leading-none tracking-tight bg-primary-900 w-full rounded-[25px]">
+<div class="text-center mb-4 p-4 tracking-tight bg-primary-900 w-full md:mx-auto md:max-w-[750px] rounded-[25px]">
   <div class="pt-4 text-4xl">📈</div>
-  <h2 class="font-extrabold">Traction Stage</h2>
-  <h4 class="font-normal">
+  <h2 class="my-[1em] font-extrabold">Traction Stage</h2>
+  <p>
     You're an early-stage startup beginning to sign big businesses, and they're coming in with big asks.
-  </h4>
-  <h4 class="font-normal">
+  </p>
+  <p>
     I'll help you assess your organization's current capabilities and design a plan that will help you keep your customers happy, and grow and scale without burning out your engineers and PMs.
-  </h4>
-  <br />
-  <h3>Does this sound familiar?</h3>
-  <div class="flex flex-col sm:flex-row gap-8 text-left text-normal rounded-[25px]">
-    <div class="p-4 flex flex-col sm:w-1/2">
-      <ul class="list-disc pl-4 space-y-2"> 
-        <li>You've got customers making big asks in contracts, and you're not sure if you can meet their needs.</li>
+  </p>
+</div>
+
+<div class="md:mx-8">  
+  <h2 class="mt-[1em] mb-0">Does this sound familiar?</h2>
+  <div class="flex flex-col sm:flex-row md:gap-8 text-left text-normal rounded-[25px] items-start">
+    <div class="md:p-4 flex flex-col md:w-1/2">
+      <ul class="list-disc md:pl-4 md:space-y-2 m-0"> 
+        <li>You have customers making big asks in contracts, and you're not sure if you can meet their needs.</li>
         <li>You've been providing support but have no formal policies, and it's becoming an operational headache.</li>
         <li>You're finding it nearly impossible to find the right team or leaders to fit your goals and growth trajectory.</li>
         <li>Engineering throughput has been slowing down as the cost of providing support has increased.</li>
       </ul>
     </div>
-    <div class="p-4 rounded-[25px] flex flex-col sm:w-1/2">
-      <ul class="list-disc pl-4 space-y-2"> 
+    <div class="md:p-4 rounded-[25px] flex flex-col md:w-1/2">
+      <ul class="list-disc md:pl-4 md:space-y-2 m-0"> 
         <li>Your engineering team has been on call for months or years and is starting to burn out.</li>
         <li>Customer requests have been growing as fast or faster than revenue.</li>
         <li>Your product teams want customer feedback but aren't getting the right level of detail from tickets.</li>
@@ -38,21 +40,22 @@ params:
     </div>
   </div>
 </div>
-<div class="m-8">
+
+<div class="md:mx-8">
   <h2>What if you could...</h2>
-  <ul class="list-disc pl-4 space-y-2">
+  <ul class="list-disc pl-4 md:space-y-2">
     <li>Create and launch support offerings that are guaranteed to be competitive and meet the needs of your biggest customers?</li>
     <li>Create crystal clarity and alignment between customers, your sales team, and engineering?</li>
     <li>Drastically reduce support load on product and engineering teams?</li>
     <li>Drive down the cost of support over time, even as your customer base grows?</li>
   </ul>
-  <p><strong>If you want to make these hypotheticals a reality, I can help.</strong></p>
+  <h2 class="mb-8 text-center">If you want to make this a reality, I can help.</h2>
 </div>
 
 <div class="columns">
   <div class="column bg-primary-800">
     <h2 class="table-header"><b>Fractional or Full Time Head of Support</b></h2>
-    <div class="content text-left">
+    <div class="content">
         <p>
           Looking for an experienced leader to run your services or support teams? I am available as a fractional head of your department, and am open to full time opportunities for the right organizations.
         </p>

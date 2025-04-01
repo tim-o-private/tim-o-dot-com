@@ -8,20 +8,22 @@ params:
   fullWidth: true
 ---
 
-<div class="text-center mb-4 leading-none tracking-tight bg-primary-900 w-full rounded-[25px]">
+<div class="text-center mb-4 p-4 tracking-tight bg-primary-900 md:mx-auto md:max-w-[750px] rounded-[25px]">
   <div class="pt-4 text-4xl">⭐</div>
-  <h2 class="font-extrabold">Growth Stage</h2>
-  <h4 class="font-normal">
+  <h2 class="my-[1em] font-extrabold">Growth Stage</h2>
+  <p class="font-normal">
     You've found PMF and you need to demonstrate that you can quickly scale your revenues <i>without</i> growing your costs in lockstep.
-  </h4>
-  <h4 class="font-normal">
+  </p>
+  <p class="font-normal">
     At this stage, you want to create repeatable proceses and an operating model that predictably delivers results. I'll help you design and build the engines that will create scalable growth, while keeping your customers happy.
-  </h4>
-  <br />
-  <h3>Does this sound familiar?</h3>
-  <div class="flex flex-col sm:flex-row gap-8 text-left text-normal rounded-[25px]">
-    <div class="p-4 flex flex-col sm:w-1/2">
-      <ul class="list-disc pl-4 space-y-2"> 
+  </p>
+</div>
+
+<div class="md:mx-8">
+  <h2>Does this sound familiar?</h2>
+  <div class="flex flex-col sm:flex-row md:gap-8 text-left text-normal rounded-[25px] items-start">
+    <div class="md:p-4 flex flex-col md:w-1/2">
+      <ul class="list-disc md:pl-4 md:space-y-2 m-0"> 
         <li>You have customers and traction, but you're not clear what your organization should look like now or at 2x your current size.</li>
         <li>You're finding it nearly impossible to find the right team or leaders to fit your goals and growth trajectory.</li>
         <li>You know you need to keep responding to customer feedback, but you don't have a scalable approach to that yet.</li>
@@ -37,21 +39,22 @@ params:
     </div>
   </div>
 </div>
-<div class="m-8">
+
+<div class="md:mx-8">
   <h2>What if you could...</h2>
-  <ul class="list-disc pl-4 space-y-2">
+  <ul class="list-disc pl-4 md:space-y-2">
     <li>Engineer a scalable mechanism for supporting customers and responding to their feedback: one that is grounded in data, process-focused, and agile as your product and customer needs change?</li>
     <li>Identify the most powerful levers to improve customer satisfaction and reduce the amount of effort it takes to deliver support?</li>
     <li>Align field, product, and engineering teams around key processes that will consistently  improve customer experience and your ability to scale?</li>
     <li>Drive down the cost of support over time, even as your customer base grows?</li>
   </ul>
-  <p><strong>If you want to make these hypotheticals a reality, I can help.</strong></p>
+  <h2 class="mb-8 text-center">If you want to make these hypotheticals a reality, I can help.</h2>
 </div>
 
 <div class="columns">
   <div class="column bg-primary-800">
     <h2 class="table-header"><b>Fractional or Full Time Head of Support</b></h2>
-    <div class="content text-left">
+    <div class="content">
         <p>
           Looking for an experienced leader to run your services or support teams? I am available as a fractional head of your department, and am open to full time opportunities for the right organizations.
         </p>
@@ -60,7 +63,7 @@ params:
         </p>
     </div>
     <div class="column-button-container">
-      {{< button href="https://zeeg.me/timobrien" color="red" >}}Get in touch{{< /button >}}
+      {{< button href="https://zeeg.me/timobrien" color="red-600" >}}Get in touch{{< /button >}}
     </div>
   </div>
   <div class="column bg-primary-600">
