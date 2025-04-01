@@ -1701,6 +1701,7 @@ select{
 
 .columns{
   display:flex;
+  width:100%;
   flex-direction:column;
   gap:0.5rem;
   text-align:center
@@ -5786,6 +5787,10 @@ pre {
 
   .md\:w-auto{
     width:auto
+  }
+
+  .md\:max-w-7xl{
+    max-width:80rem
   }
 
   .md\:grid-cols-3{

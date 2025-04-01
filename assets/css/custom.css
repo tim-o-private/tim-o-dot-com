@@ -18,7 +18,7 @@
 /* @layer compontents is for reusable  */
 @layer components {
     .columns {
-      @apply flex flex-col md:flex-row gap-2 md:gap-8 text-center;
+      @apply flex flex-col md:flex-row gap-2 md:gap-8 text-center w-full;
     }
     .column {
       @apply p-2 md:p-4 rounded-3xl shadow-xl md:flex-1 md:flex md:flex-col;
