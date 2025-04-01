@@ -84,7 +84,7 @@
       {{ if .Params.fullWidth }}
         <div class="article-content max-w-full mb-20">
       {{ else }}
-        <div class="article-content max-w-prose mb-20">
+        <div class="article-content lg:max-w-[60%] mb-20">
       {{ end }}
             {{ .Content }}
           {{ $defaultReplyByEmail := .Site.Params.replyByEmail }}
