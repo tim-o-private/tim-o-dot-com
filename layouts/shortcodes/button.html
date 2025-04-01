@@ -1,9 +1,19 @@
 {{ $color := .Get "color" | default "primary-600" }}
-{{ $hoverColor := cond (in $color "600") (replace $color "600" "500") $color }}
-{{ $darkHoverColor := cond (in $color "600") (replace $color "600" "700") $color }}
+
+{{ $colorParts := split $color "-" }}
+{{ $colorName := index $colorParts 0 }}
+{{ $colorShade := index $colorParts 1 | int }}
+
+{{ $lighterShade := sub $colorShade 100 }}
+
+{{ if lt $lighterShade 50 }}
+  {{ $lighterShade = 50 }}
+{{ end }}
+
+{{ $hoverColor := printf "%s-%d" $colorName $lighterShade }}
 
 <a
-  class="!rounded-md bg-{{ $color }} px-4 md:px-6 py-2 md:py-4 !text-neutral whitespace-nowrap !no-underline hover:!bg-{{ $hoverColor }} dark:bg-{{ $color }} dark:hover:!bg-{{ $darkHoverColor }} box-shadow-sm button-padding"
+  class="!rounded-md  bg-{{ $color }} px-4 md:px-6 py-2 md:py-4 !text-neutral whitespace-nowrap !no-underline hover:bg-{{ $hoverColor }} dark:bg-{{ $color }} dark:hover:bg-{{ $hoverColor }} box-shadow-sm button-padding"
   {{ with .Get "href" }}href="{{ . }}"{{ end }}
   {{ with .Get "target" }}target="{{ . }}"{{ end }}
   {{ with .Get "rel" }}rel="{{ . }}"{{ end }}

@@ -44,7 +44,7 @@ params:
     {{< /button >}}
   </div>
   <div>
-    {{< button href="https://zeeg.me/timobrien" color="red-600" >}}
+    {{< button href="https://zeeg.me/timobrien" color="red-700" >}}
       Schedule a Call
     {{< /button >}}
   </div>
@@ -54,6 +54,7 @@ params:
 
 <div class="columns">
   <div class="column bg-primary-800">
+    <div class="pt-4 text-4xl">📈</div>
     <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
     <div class="content">
         <p>You have a few customers and are approaching product market fit, but no professional support organization. 
@@ -61,10 +62,11 @@ params:
         <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/traction" >}}Learn more{{< /button >}}
+      {{< button href="stages/traction" color="primary-600" >}}Learn more{{< /button >}}
     </div>
   </div>
   <div class="column bg-primary-600">
+    <div class="pt-4 text-4xl">⭐</div>
     <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
     <div class="content">
       <p>
@@ -75,16 +77,17 @@ params:
       </p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/growth" >}}Learn more{{< /button >}}
+      {{< button href="stages/growth" color="primary-800" >}}Learn more{{< /button >}}
     </div>
   </div>
   <div class="column bg-primary-500">
+    <div class="pt-4 text-4xl">🚀</div>
     <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
     <div class="content">
       <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/scale" >}}Learn more{{< /button >}}
+      {{< button href="stages/scale" color="primary-900" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>

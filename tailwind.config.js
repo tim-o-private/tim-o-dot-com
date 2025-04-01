@@ -174,9 +174,19 @@ module.exports = {
       }),
     },
   },
+  safelist: [
+    {
+      pattern: /^bg-red-\d{3}$/,
+      variants: ['hover', 'dark', 'lg', 'dark:hover'], // includes hover:bg-red-500, etc.
+    },
+    'bg-[#eaf0ce]',        // background color
+    'hover:bg-[#eaf0ce]',  // optional hover variant
+    'text-[#eaf0ce]',      // text color, if needed
+  ],
   plugins: [
     require("@tailwindcss/typography"),
     require('@tailwindcss/forms'),
     require('tailwind-scrollbar')({ preferredStrategy: 'pseudoelements' })
   ],
 };
+
