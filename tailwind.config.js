@@ -15,47 +15,47 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
-    colors: {
-      transparent: "transparent",
-      neutral: {
-        DEFAULT: "rgba(var(--color-neutral), <alpha-value>)",
-        50: "rgba(var(--color-neutral-50), <alpha-value>)",
-        100: "rgba(var(--color-neutral-100), <alpha-value>)",
-        200: "rgba(var(--color-neutral-200), <alpha-value>)",
-        300: "rgba(var(--color-neutral-300), <alpha-value>)",
-        400: "rgba(var(--color-neutral-400), <alpha-value>)",
-        500: "rgba(var(--color-neutral-500), <alpha-value>)",
-        600: "rgba(var(--color-neutral-600), <alpha-value>)",
-        700: "rgba(var(--color-neutral-700), <alpha-value>)",
-        800: "rgba(var(--color-neutral-800), <alpha-value>)",
-        900: "rgba(var(--color-neutral-900), <alpha-value>)",
-      },
-      primary: {
-        50: "rgba(var(--color-primary-50), <alpha-value>)",
-        100: "rgba(var(--color-primary-100), <alpha-value>)",
-        200: "rgba(var(--color-primary-200), <alpha-value>)",
-        300: "rgba(var(--color-primary-300), <alpha-value>)",
-        400: "rgba(var(--color-primary-400), <alpha-value>)",
-        500: "rgba(var(--color-primary-500), <alpha-value>)",
-        600: "rgba(var(--color-primary-600), <alpha-value>)",
-        700: "rgba(var(--color-primary-700), <alpha-value>)",
-        800: "rgba(var(--color-primary-800), <alpha-value>)",
-        900: "rgba(var(--color-primary-900), <alpha-value>)",
-      },
-      secondary: {
-        50: "rgba(var(--color-secondary-50), <alpha-value>)",
-        100: "rgba(var(--color-secondary-100), <alpha-value>)",
-        200: "rgba(var(--color-secondary-200), <alpha-value>)",
-        300: "rgba(var(--color-secondary-300), <alpha-value>)",
-        400: "rgba(var(--color-secondary-400), <alpha-value>)",
-        500: "rgba(var(--color-secondary-500), <alpha-value>)",
-        600: "rgba(var(--color-secondary-600), <alpha-value>)",
-        700: "rgba(var(--color-secondary-700), <alpha-value>)",
-        800: "rgba(var(--color-secondary-800), <alpha-value>)",
-        900: "rgba(var(--color-secondary-900), <alpha-value>)",
-      },
-    },
     extend: {
+      colors: {
+        transparent: "transparent",
+        neutral: {
+          DEFAULT: "rgba(var(--color-neutral), <alpha-value>)",
+          50: "rgba(var(--color-neutral-50), <alpha-value>)",
+          100: "rgba(var(--color-neutral-100), <alpha-value>)",
+          200: "rgba(var(--color-neutral-200), <alpha-value>)",
+          300: "rgba(var(--color-neutral-300), <alpha-value>)",
+          400: "rgba(var(--color-neutral-400), <alpha-value>)",
+          500: "rgba(var(--color-neutral-500), <alpha-value>)",
+          600: "rgba(var(--color-neutral-600), <alpha-value>)",
+          700: "rgba(var(--color-neutral-700), <alpha-value>)",
+          800: "rgba(var(--color-neutral-800), <alpha-value>)",
+          900: "rgba(var(--color-neutral-900), <alpha-value>)",
+        },
+        primary: {
+          50: "rgba(var(--color-primary-50), <alpha-value>)",
+          100: "rgba(var(--color-primary-100), <alpha-value>)",
+          200: "rgba(var(--color-primary-200), <alpha-value>)",
+          300: "rgba(var(--color-primary-300), <alpha-value>)",
+          400: "rgba(var(--color-primary-400), <alpha-value>)",
+          500: "rgba(var(--color-primary-500), <alpha-value>)",
+          600: "rgba(var(--color-primary-600), <alpha-value>)",
+          700: "rgba(var(--color-primary-700), <alpha-value>)",
+          800: "rgba(var(--color-primary-800), <alpha-value>)",
+          900: "rgba(var(--color-primary-900), <alpha-value>)",
+        },
+        secondary: {
+          50: "rgba(var(--color-secondary-50), <alpha-value>)",
+          100: "rgba(var(--color-secondary-100), <alpha-value>)",
+          200: "rgba(var(--color-secondary-200), <alpha-value>)",
+          300: "rgba(var(--color-secondary-300), <alpha-value>)",
+          400: "rgba(var(--color-secondary-400), <alpha-value>)",
+          500: "rgba(var(--color-secondary-500), <alpha-value>)",
+          600: "rgba(var(--color-secondary-600), <alpha-value>)",
+          700: "rgba(var(--color-secondary-700), <alpha-value>)",
+          800: "rgba(var(--color-secondary-800), <alpha-value>)",
+          900: "rgba(var(--color-secondary-900), <alpha-value>)",
+        },
+      },
       typography: ({ theme }) => ({
         DEFAULT: {
           css: {
@@ -80,8 +80,8 @@ module.exports = {
             "--tw-prose-invert-lead": theme("colors.neutral.500 / 1"),
             "--tw-prose-invert-links": theme("colors.primary.400 / 1"),
             "--tw-prose-invert-bold": theme("colors.neutral.DEFAULT / 1"),
-            "--tw-prose-invert-counters": theme("colors.neutral.400 / 1"),
-            "--tw-prose-invert-bullets": theme("colors.neutral.600 / 1"),
+            "--tw-prose-invert-counters": theme("colors.neutral.50 / 1"),
+            "--tw-prose-invert-bullets": theme("colors.neutral.50 / 1"),
             "--tw-prose-invert-hr": theme("colors.neutral.500 / 1"),
             "--tw-prose-invert-quotes": theme("colors.neutral.200 / 1"),
             "--tw-prose-invert-quote-borders": theme("colors.primary.900 / 1"),
@@ -148,9 +148,9 @@ module.exports = {
         invert: {
           css: {
             a: {
-              textDecorationColor: theme("colors.neutral.600 / 1"),
+              textDecorationColor: theme("colors.neutral.50 / 1"),
               "&:hover": {
-                color: theme("colors.primary.400 / 1"),
+                color: theme("colors.neutral.100 / 1"),
               },
             },
             kbd: {
@@ -164,10 +164,10 @@ module.exports = {
               backgroundColor: theme("colors.neutral.700 / 1"),
             },
             'a.active': {
-              "text-decoration-color": theme("colors.primary.400 / 1")
+              "text-decoration-color": theme("colors.primary.50 / 1")
             },
             'p.active': {
-              "text-decoration-color": theme("colors.primary.400 / 1")
+              "text-decoration-color": theme("colors.primary.50 / 1")
             }
           },
         },

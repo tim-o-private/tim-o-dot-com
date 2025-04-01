@@ -97,7 +97,7 @@ params:
     >}}
   </div>
   <div class="text-container">
-    <h2>Hi! I'm Tim 👋</h2>
+    <h2 class="table-header">Hi! I'm Tim 👋</h2>
     <p>
       I've spent the last 15 years helping startups build world class support organizations from the ground up. I work with <b>Founders</b>, <b>CEOs</b>, <b>CTOs</b> and <b>Heads of Product</b> who need to solve the unique challenges encountered when a startup begins supporting global enterprises.
     </p>

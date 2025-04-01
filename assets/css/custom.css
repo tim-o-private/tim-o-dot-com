@@ -17,6 +17,9 @@
 /* Menu styles adjusted in `partials/header/fixed.html` */
 /* @layer compontents is for reusable  */
 @layer components {
+    .anchor {
+      @apply block relative h-0 invisible;
+    }
     .table-header {
       @apply my-[1em];
     }
@@ -103,10 +106,6 @@
   max-width:60%
 }
 
-.dynamic-text-container {
-    color: white;
-}
-
 .box-shadow-sm {
     box-shadow: 3px 2px 3px 1px rgba(30, 41, 59, 50%);
 }
@@ -122,11 +121,15 @@
   background-color:rgba(var(--color-secondary-600), var(--tw-bg-opacity, 1))
 }
 
-.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  color:whitesmoke;
-  text-decoration:none;
-  font-weight:500;
-  text-decoration-color:rgba(var(--color-primary-300), 1);
+.prose :where(a):not(:where(.not-prose, .not-prose *)) {
+  color: whitesmoke;
+}
+
+.prose :where(a):not(:where(.not-prose, .not-prose *, .footnote-ref, .footnote-backref )) {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  font-weight: 500;
+  text-decoration-color: whitesmoke;
 }
 
 /* On mobile, stack the buttons vertically */
@@ -157,6 +160,7 @@
 html {
     font-size: 18px;
     font-family: "Inter", sans-serif;
+    scroll-padding-top: 8rem;
 }
 
 section > p,
@@ -225,6 +229,12 @@ table.fullwidth {
 
 
 @media (max-width: 760px) {
+    html {
+      font-size: 16px;
+      font-family: "Inter", sans-serif;
+      scroll-padding-top: 8rem;
+    }
+
     body {
         width: 84%;
         padding-left: 8%;
