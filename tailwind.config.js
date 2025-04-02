@@ -182,6 +182,9 @@ module.exports = {
     'bg-[#eaf0ce]',        // background color
     'hover:bg-[#eaf0ce]',  // optional hover variant
     'text-[#eaf0ce]',      // text color, if needed
+    'bg-[#00a6ed]',        // background color
+    'hover:bg-[#00a6ed]',  // optional hover variant
+    'text-[#00a6ed]',      // text color, if needed
   ],
   plugins: [
     require("@tailwindcss/typography"),

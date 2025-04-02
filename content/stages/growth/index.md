@@ -63,10 +63,10 @@ params:
         </p>
     </div>
     <div class="column-button-container">
-      {{< button href="https://zeeg.me/timobrien" color="red-600" >}}Get in touch{{< /button >}}
+      {{< button href="https://zeeg.me/timobrien" color="primary-500" >}}Get in touch{{< /button >}}
     </div>
   </div>
-  <div class="column bg-primary-600">
+  <div class="column bg-primary-800">
     <h2 class="table-header"><b>Advisory</b></h2>
     <div class="content">
       <p>
@@ -80,10 +80,10 @@ params:
       </p>
     </div>
     <div class="column-button-container">
-      {{< button href="https://zeeg.me/timobrien" >}}Book a call{{< /button >}}
+      {{< button href="https://zeeg.me/timobrien" color="primary-500" >}}Book a call{{< /button >}}
     </div>
   </div>
-  <div class="column bg-secondary-600">
+  <div class="column bg-primary-800">
     <h2 class="table-header">Strategy Session</h2>
     <div class="content">
       <p>
@@ -97,7 +97,7 @@ params:
       </p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/scale" >}}Learn more{{< /button >}}
+      {{< button href="stages/scale" color="primary-500" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>

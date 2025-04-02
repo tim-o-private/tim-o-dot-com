@@ -138,6 +138,13 @@ body.zen-mode-enable {
   text-decoration-color: whitesmoke;
 }
 
+.prose :where(a, .footnote-ref):not(:where(.not-prose, .not-prose *, .footnote-backref )) {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-weight: 500;
+  text-decoration-color: whitesmoke;
+}
+
 /* On mobile, stack the buttons vertically */
 
 @media (max-width: 640px) {
@@ -146,10 +153,6 @@ body.zen-mode-enable {
     gap: .5rem;
   }
 }
-
-/*.footnote-ref {
-        color: #000001;
-}*/
 
 /* Adds dark mode */
 
@@ -2871,6 +2874,11 @@ select{
   border-top-color:transparent
 }
 
+.bg-\[\#00a6ed\]{
+  --tw-bg-opacity:1;
+  background-color:rgb(0 166 237 / var(--tw-bg-opacity, 1))
+}
+
 .bg-\[\#6d6d6d\]{
   --tw-bg-opacity:1;
   background-color:rgb(109 109 109 / var(--tw-bg-opacity, 1))
@@ -3409,6 +3417,11 @@ select{
   color:rgba(var(--color-neutral), var(--tw-text-opacity, 1)) !important
 }
 
+.text-\[\#00a6ed\]{
+  --tw-text-opacity:1;
+  color:rgb(0 166 237 / var(--tw-text-opacity, 1))
+}
+
 .text-\[\#eaf0ce\]{
   --tw-text-opacity:1;
   color:rgb(234 240 206 / var(--tw-text-opacity, 1))
@@ -3506,11 +3519,6 @@ select{
 .text-white{
   --tw-text-opacity:1;
   color:rgb(255 255 255 / var(--tw-text-opacity, 1))
-}
-
-.text-black{
-  --tw-text-opacity:1;
-  color:rgb(0 0 0 / var(--tw-text-opacity, 1))
 }
 
 .\!no-underline{
@@ -5519,6 +5527,11 @@ pre {
 .hover\:\!bg-primary-500:hover{
   --tw-bg-opacity:1 !important;
   background-color:rgba(var(--color-primary-500), var(--tw-bg-opacity, 1)) !important
+}
+
+.hover\:bg-\[\#00a6ed\]:hover{
+  --tw-bg-opacity:1;
+  background-color:rgb(0 166 237 / var(--tw-bg-opacity, 1))
 }
 
 .hover\:bg-\[\#eaf0ce\]:hover{

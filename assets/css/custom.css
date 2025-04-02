@@ -132,6 +132,13 @@
   text-decoration-color: whitesmoke;
 }
 
+.prose :where(a, .footnote-ref):not(:where(.not-prose, .not-prose *, .footnote-backref )) {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-weight: 500;
+  text-decoration-color: whitesmoke;
+}
+
 /* On mobile, stack the buttons vertically */
 @media (max-width: 640px) {
   .button-container {
@@ -139,9 +146,6 @@
     gap: .5rem;
   }
 }
-/*.footnote-ref {
-        color: #000001;
-}*/
 
 /* Adds dark mode */
 @media (prefers-color-scheme: dark) {

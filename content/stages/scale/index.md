@@ -8,7 +8,7 @@ params:
   fullWidth: true
 ---
 
-<div class="text-center mb-4 p-4 tracking-tight bg-primary-900 md:mx-auto md:max-w-[750px] rounded-[25px]">
+<div class="text-center mb-4 p-4 tracking-tight bg-primary-800 md:mx-auto md:max-w-[750px] rounded-[25px]">
   <div class="pt-4 text-4xl">🚀</div>
   <h2 class="my-[1em] font-extrabold">Scale Stage</h2>
   <p class="font-bold">

@@ -62,10 +62,10 @@ params:
         <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/traction" color="primary-600" >}}Learn more{{< /button >}}
+      {{< button href="stages/traction" color="primary-500" >}}Learn more{{< /button >}}
     </div>
   </div>
-  <div class="column bg-primary-600">
+  <div class="column bg-primary-800">
     <div class="pt-4 text-4xl">⭐</div>
     <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
     <div class="content">
@@ -73,27 +73,28 @@ params:
             You're close to or have hit product-market fit and are ready to rapidly expand.
       </p>
       <p> 
-            I can help build your enterprise organization or upskill a team already in place to execute.
+            I can help build your enterprise organization or rapidly execute with a team already in place.
       </p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/growth" color="primary-800" >}}Learn more{{< /button >}}
+      {{< button href="stages/growth" color="primary-600" >}}Learn more{{< /button >}}
     </div>
   </div>
-  <div class="column bg-primary-500">
+  <div class="column bg-primary-800">
     <div class="pt-4 text-4xl">🚀</div>
     <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
     <div class="content">
-      <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
+      <p>You have a significant number of existing customers and a professional support organization.</p>
+      <p>I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/scale" color="primary-900" >}}Learn more{{< /button >}}
+      {{< button href="stages/scale" color="primary-600" >}}Learn more{{< /button >}}
     </div>
   </div>
 </div>
 
 <div class="split-container">
-  <div class="image-container">
+  <div class="image-container not-prose">
     {{< figure 
       src="headshotSmiling.jpg"
       alt="Headshot of Tim O'Brien smiling"
