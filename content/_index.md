@@ -62,7 +62,7 @@ params:
         <p>I can help you build a roadmap, hire your initial team, and decide what you will need in place before your growth accelerates.</p>
     </div>
     <div class="column-button-container">
-      {{< button href="stages/traction" color="primary-500" >}}Learn more{{< /button >}}
+      {{< button href="stages/traction" color="primary-600" >}}Learn more{{< /button >}}
     </div>
   </div>
   <div class="column bg-primary-800">

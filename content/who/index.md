@@ -21,6 +21,7 @@ Who I Work With
 <br />
 <div class="columns" style="max-width: 100%;">
     <div class="column bg-secondary-600">
+      <div class="pt-4 text-4xl">📈</div>
       <h2 class="table-header"><b>Foundations</b> for Early Stage Startups</h2>
       <div class="content">
         <p>You have a few customers and are approaching product market fit, but no professional support organization. 
@@ -31,7 +32,8 @@ Who I Work With
         {{< button href="stages/traction" >}}Learn more{{< /button >}}
       </div>
     </div>
-    <div class="column bg-primary-600">
+    <div class="column bg-primary-800">
+      <div class="pt-4 text-4xl">⭐</div>
       <h2 class="table-header"><b>Growth</b> for Mid Stage Startups</h2>
       <div class="content">
         <p>
@@ -46,6 +48,7 @@ Who I Work With
       </div>
     </div>
     <div class="column bg-primary-500">
+      <div class="pt-4 text-4xl">🚀</div>
       <h2 class="table-header"><b>Scale</b> for Growing Enterprises</h2>
       <div class="content">
         <p>You have a significant number of existing customers and a professional support organization. I can help refine and improve your support processes, identifying opportunities for the team to excel.</p>
